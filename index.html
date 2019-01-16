@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Our Store</title>
+  </head>
+  <body>
+    <form id="orderform">
+      <div class="form-group">
+        <label for="nameinput">Enter your name</label>
+        <input id="nameinput" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="addressinput">Enter your shipping address</label>
+        <input id="addressinput" class="form-control" type="text">
+      </div>
+      <button type="submit" name="button">Confirm your order!</button>
+    </form>
+
+    <div id="output">
+      <h1>Your order info</h1>
+      <p>Thanks for ordering from us <span class="nameinput"></span>. Please confirm that your address is correct: <span class="addressinput"></span>. Enjoy!</p>
+    </div>
+
+  </body>
+</html>
